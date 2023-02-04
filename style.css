@@ -7,9 +7,10 @@ html, body {
 
 html, h1{
   font-family: monospace;
+  font-size: 40px;
   text-align: center;
   color: white;
-  top-padding: 20px;
+  padding: 30px;
 }
 
 html, h2{
