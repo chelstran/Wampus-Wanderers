@@ -9,6 +9,7 @@ html, h1{
   font-family: monospace;
   text-align: center;
   color: white;
+  top-margin:20px;
 }
 
 html, h2{
