@@ -1,50 +1,30 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Wampus Wanderer</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
-
-<body>
-  <h1>Wampus Wanderer</h1>
-  </hr>
-  <script src="script.js"></script>
-  <form action="action_page.php" style="border:1px solid #ccc">
-    <div class="container">
-      <h2>Sign Up</h2>
-      <p>Please fill in this form to create an account.</p>
-      <hr>
-
-      <label for="email"><b>Email</b></label>
-      <input type="text" placeholder="Enter Email" name="email" required>
-
-      <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
-
-      <label for="psw-repeat"><b>Repeat Password</b></label>
-      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
-
-      <label>
-        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
-      </label>
-
-      <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
-
-      <div class="clearfix">
-        <button type="button" class="cancelbtn">Cancel</button>
-        <button type="submit" class="signupbtn">Sign Up</button>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <title>Wampus Wanderers</title>
+      <h1 onclick="window.location.href = 'index.html';">Wampus Wanderers</h1>
+      <link href="style.css" rel="stylesheet" type="text/css" />
+   </head>
+   <body>
+      <button class="btn" onclick="window.location.href = 'index.html';">HOME</button>
+      <button class="btn" onclick="window.location.href = 'account.html';">ACCOUNT</button>
+      <div id = "intro">
+         <h2>Welcome to Wampus Wanderers!</h2>
+         <p>Our goal is to help students find the personalized perfect roommate and make finding housing easier </p>
       </div>
-    </div>
-                        
-    <!--
-  This script places a badge on your repl's full-browser view back to your repl's cover
-  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
-  teal, blue, blurple, magenta, pink!
-  -->
-    <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+      <div id= "desc">
+         <p> Made for UT students by UT students. We felt students' universal panic from having to scramble to curate next year's roommates and which apartment complex to live in just a few months into the semester.
+         </p>
+         <p> Having to rigourously search online for which complex fits all your roommates' (if you even have that figured out!) needs while also dealing with UT's courseload is a harrowing task. </p>
+      </div>
+      <img id = "logo" src = "Wampus Wanderers Logo.png"/>
+      <footer>
+         <p>| Creators : Amna Ali | Chelsea Tran | Karen Vu | Srishti Jain |</p>
+      </footer>
+   </body>
+</html>
+<!--    <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> --!>
 </body>
-
 </html>
